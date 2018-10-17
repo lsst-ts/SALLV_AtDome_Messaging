@@ -55,6 +55,12 @@
 		<Item Name="enableackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/enableackcmd/enableackcmd.lvclass"/>
 		<Item Name="exitControlackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/exitControlackcmd/exitControlackcmd.lvclass"/>
 		<Item Name="standbyackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/standbyackcmd/standbyackcmd.lvclass"/>
+		<Item Name="stopMotionAllAxisackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/stopMotionAllAxisackcmd/stopMotionAllAxisackcmd.lvclass"/>
+		<Item Name="moveAzimuthackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/moveAzimuthackcmd/moveAzimuthackcmd Folder/moveAzimuthackcmd.lvclass"/>
+		<Item Name="closeShutterackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/closeShutterackcmd/closeShutterackcmd Folder/closeShutterackcmd.lvclass"/>
+		<Item Name="openShutterackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/openShutterackcmd/openShutterackcmd Folder/openShutterackcmd.lvclass"/>
+		<Item Name="stopShutterackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/stopShutterackcmd/stopShutterackcmd Folder/stopShutterackcmd.lvclass"/>
+		<Item Name="stopAzimuthackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/stopAzimuthackcmd/stopAzimuthackcmd Folder/stopAzimuthackcmd.lvclass"/>
 		<Item Name="startackcmd.lvclass" Type="LVClass" URL="../Topics/AckCommand/startackcmd/startackcmd.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
