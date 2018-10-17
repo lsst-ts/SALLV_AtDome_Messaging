@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Subsystem" Type="Folder">
-		<Item Name="AtDome.lvclass" Type="LVClass" URL="../Subsystem/AtDome/AtDome.lvclass"/>
+		<Item Name="AtDome.lvclass" Type="LVClass" URL="../Subsystem/EXA/AtDome.lvclass"/>
 	</Item>
 	<Item Name="Command" Type="Folder">
 		<Item Name="disable.lvclass" Type="LVClass" URL="../Topics/Command/disable/disable.lvclass"/>
@@ -14,6 +14,12 @@
 		<Item Name="enterControl.lvclass" Type="LVClass" URL="../Topics/Command/enterControl/enterControl.lvclass"/>
 		<Item Name="exitControl.lvclass" Type="LVClass" URL="../Topics/Command/exitControl/exitControl.lvclass"/>
 		<Item Name="standby.lvclass" Type="LVClass" URL="../Topics/Command/standby/standby.lvclass"/>
+		<Item Name="closeShutter.lvclass" Type="LVClass" URL="../Topics/Command/closeShutter/closeShutter.lvclass"/>
+		<Item Name="openShutter.lvclass" Type="LVClass" URL="../Topics/Command/openShutter/openShutter Folder/openShutter.lvclass"/>
+		<Item Name="stopAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/stopAzimuth/stopAzimuth Folder/stopAzimuth.lvclass"/>
+		<Item Name="stopMotionAllAxis.lvclass" Type="LVClass" URL="../Topics/Command/stopMotionAllAxis/stopMotionAllAxis/stopMotionAllAxis.lvclass"/>
+		<Item Name="moveAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/moveAzimuth/moveAzimuth/moveAzimuth.lvclass"/>
+		<Item Name="stopShutter.lvclass" Type="LVClass" URL="../Topics/Command/stopShutter/stopShutter/stopShutter.lvclass"/>
 		<Item Name="start.lvclass" Type="LVClass" URL="../Topics/Command/start/start.lvclass"/>
 	</Item>
 	<Item Name="Event" Type="Folder">
@@ -25,11 +31,23 @@
 		<Item Name="loopTimeOutOfRange.lvclass" Type="LVClass" URL="../Topics/Event/loopTimeOutOfRange/loopTimeOutOfRange.lvclass"/>
 		<Item Name="rejectedCommand.lvclass" Type="LVClass" URL="../Topics/Event/rejectedCommand/rejectedCommand.lvclass"/>
 		<Item Name="settingVersions.lvclass" Type="LVClass" URL="../Topics/Event/settingVersions/settingVersions.lvclass"/>
+		<Item Name="mainDoorState.lvclass" Type="LVClass" URL="../Topics/Event/mainDoorState/mainDoorState.lvclass"/>
+		<Item Name="azimuthInPosition.lvclass" Type="LVClass" URL="../Topics/Event/azimuthInPosition/azimuthInPosition.lvclass"/>
+		<Item Name="azimuthState.lvclass" Type="LVClass" URL="../Topics/Event/azimuthState/azimuthState.lvclass"/>
+		<Item Name="dropoutDoorState.lvclass" Type="LVClass" URL="../Topics/Event/dropoutDoorState/dropoutDoorState Folder/dropoutDoorState.lvclass"/>
+		<Item Name="settingsAppliedDomeTcp.lvclass" Type="LVClass" URL="../Topics/Event/settingsAppliedDomeTcp/settingsAppliedDomeTcp Folder/settingsAppliedDomeTcp.lvclass"/>
+		<Item Name="settingsAppliedDomeController.lvclass" Type="LVClass" URL="../Topics/Event/settingsAppliedDomeController/settingsAppliedDomeController Folder/settingsAppliedDomeController.lvclass"/>
+		<Item Name="azimuthMovingDirection.lvclass" Type="LVClass" URL="../Topics/Event/azimuthMovingDirection/azimuthMovingDirection Folder/azimuthMovingDirection.lvclass"/>
+		<Item Name="scbLink.lvclass" Type="LVClass" URL="../Topics/Event/scbLink/scbLink Folder/scbLink.lvclass"/>
+		<Item Name="allAxisInPosition.lvclass" Type="LVClass" URL="../Topics/Event/allAxisInPosition/allAxisInPosition Folder/allAxisInPosition.lvclass"/>
+		<Item Name="internalStatus.lvclass" Type="LVClass" URL="../Topics/Event/internalStatus/internalStatus Folder/internalStatus.lvclass"/>
+		<Item Name="emergencyStop.lvclass" Type="LVClass" URL="../Topics/Event/emergencyStop/emergencyStop Folder/emergencyStop.lvclass"/>
+		<Item Name="shutterInPosition.lvclass" Type="LVClass" URL="../Topics/Event/shutterInPosition/shutterInPosition Folder/shutterInPosition.lvclass"/>
 		<Item Name="summaryState.lvclass" Type="LVClass" URL="../Topics/Event/summaryState/summaryState.lvclass"/>
 	</Item>
 	<Item Name="Telemetry" Type="Folder">
+		<Item Name="position.lvclass" Type="LVClass" URL="../Topics/Event/position/position/position.lvclass"/>
 		<Item Name="loopTime.lvclass" Type="LVClass" URL="../Topics/Telemetry/loopTime/loopTime.lvclass"/>
-		<Item Name="position.lvclass" Type="LVClass" URL="../Topics/Telemetry/position/position.lvclass"/>
 		<Item Name="timestamp.lvclass" Type="LVClass" URL="../Topics/Telemetry/timestamp/timestamp.lvclass"/>
 	</Item>
 	<Item Name="AckCommand" Type="Folder">
@@ -46,5 +64,4 @@
 		<Item Name="SALLVFnRefsTelemetry.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsTelemetry.ctl"/>
 		<Item Name="SALLVFnRefsSubsystem.ctl" Type="VI" URL="../SALMessagingTypedefs/SALLVFnRefsSubsystem.ctl"/>
 	</Item>
-	<Item Name="SALLV_AtDome.lvlib" Type="Library" URL="../../ts_sallv_AtDome/SALLV_AtDome.lvlib"/>
 </Library>
