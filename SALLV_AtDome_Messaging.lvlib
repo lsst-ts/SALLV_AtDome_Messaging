@@ -15,11 +15,11 @@
 		<Item Name="exitControl.lvclass" Type="LVClass" URL="../Topics/Command/exitControl/exitControl.lvclass"/>
 		<Item Name="standby.lvclass" Type="LVClass" URL="../Topics/Command/standby/standby.lvclass"/>
 		<Item Name="closeShutter.lvclass" Type="LVClass" URL="../Topics/Command/closeShutter/closeShutter.lvclass"/>
-		<Item Name="openShutter.lvclass" Type="LVClass" URL="../Topics/Command/openShutter/openShutter Folder/openShutter.lvclass"/>
-		<Item Name="stopAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/stopAzimuth/stopAzimuth Folder/stopAzimuth.lvclass"/>
-		<Item Name="stopMotionAllAxis.lvclass" Type="LVClass" URL="../Topics/Command/stopMotionAllAxis/stopMotionAllAxis/stopMotionAllAxis.lvclass"/>
-		<Item Name="moveAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/moveAzimuth/moveAzimuth/moveAzimuth.lvclass"/>
-		<Item Name="stopShutter.lvclass" Type="LVClass" URL="../Topics/Command/stopShutter/stopShutter/stopShutter.lvclass"/>
+		<Item Name="openShutter.lvclass" Type="LVClass" URL="../Topics/Command/openShutter/openShutter.lvclass"/>
+		<Item Name="stopAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/stopAzimuth/stopAzimuth.lvclass"/>
+		<Item Name="stopMotionAllAxis.lvclass" Type="LVClass" URL="../Topics/Command/stopMotionAllAxis/stopMotionAllAxis.lvclass"/>
+		<Item Name="moveAzimuth.lvclass" Type="LVClass" URL="../Topics/Command/moveAzimuth/moveAzimuth.lvclass"/>
+		<Item Name="stopShutter.lvclass" Type="LVClass" URL="../Topics/Command/stopShutter/stopShutter.lvclass"/>
 		<Item Name="start.lvclass" Type="LVClass" URL="../Topics/Command/start/start.lvclass"/>
 	</Item>
 	<Item Name="Event" Type="Folder">
